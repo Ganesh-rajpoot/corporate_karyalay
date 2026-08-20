@@ -11,6 +11,7 @@
 const nextConfig = {
   images: {
     domains: ['images.unsplash.com'],
+    
   },
   reactStrictMode: true,
   swcMinify: true,
