@@ -1,0 +1,343 @@
+// // app/contact/page.tsx
+// import { Metadata } from 'next';
+// import Link from 'next/link';
+// import { 
+//   FiMapPin, 
+//   FiPhone, 
+//   FiMail, 
+//   FiClock, 
+//   FiMessageCircle,
+//   FiSend,
+//   FiUser,
+//   FiFileText,
+//   FiCheckCircle,
+//   FiArrowRight
+// } from 'react-icons/fi';
+
+// export const metadata: Metadata = {
+//   title: 'Contact Us - Corporate Karyalay',
+//   description: 'Get in touch with Corporate Karyalay for tax, compliance, and legal services. Call, email, or fill out our contact form.',
+//   keywords: 'contact corporate karyalay, tax consultation, legal help, compliance services',
+// };
+
+// const offices = [
+//   {
+//     city: 'Prayagraj',
+//     address: '123, Civil Lines, Prayagraj, Uttar Pradesh - 211001',
+//     phone: '+91 99846 49997',
+//     email: 'prayagraj@corporatekaryalay.in',
+//   },
+//   {
+//     city: 'Delhi',
+//     address: '456, Connaught Place, New Delhi - 110001',
+//     phone: '+91 98765 43211',
+//     email: 'delhi@corporatekaryalay.in',
+//   },
+//   {
+//     city: 'Chennai',
+//     address: '789, Anna Salai, Chennai, Tamil Nadu - 600002',
+//     phone: '+91 98765 43212',
+//     email: 'chennai@corporatekaryalay.in',
+//   },
+//   {
+//     city: 'Mumbai',
+//     address: '101, Nariman Point, Mumbai, Maharashtra - 400021',
+//     phone: '+91 98765 43213',
+//     email: 'mumbai@corporatekaryalay.in',
+//   },
+// ];
+
+// const faqs = [
+//   {
+//     question: 'How quickly can I get a response?',
+//     answer: 'We aim to respond to all inquiries within 24 hours during business days.',
+//   },
+//   {
+//     question: 'What services do you offer?',
+//     answer: 'We offer GST registration, ITR filing, company incorporation, ROC compliance, legal documentation, and more.',
+//   },
+//   {
+//     question: 'Are your professionals qualified?',
+//     answer: 'Yes, all our professionals are qualified CAs, CS, and advocates with relevant experience.',
+//   },
+//   {
+//     question: 'Is my data secure?',
+//     answer: 'Absolutely. We follow strict data protection protocols and never share your information with third parties.',
+//   },
+// ];
+
+// export default function ContactPage() {
+//   return (
+//     <div className="min-h-screen bg-gray-50">
+//       {/* Hero Section */}
+//       <section className="relative bg-gradient-to-br from-primary-900 via-primary-800 to-primary-900 text-white py-16 md:py-20 overflow-hidden">
+//         <div className="absolute inset-0">
+//           <div className="absolute top-0 right-0 w-96 h-96 bg-gold-500/10 rounded-full filter blur-3xl" />
+//           <div className="absolute bottom-0 left-0 w-96 h-96 bg-primary-400/10 rounded-full filter blur-3xl" />
+//         </div>
+        
+//         <div className="relative max-w-7xl mx-auto px-4">
+//           <div className="max-w-3xl">
+//             <span className="inline-block px-4 py-1 bg-gold-500/20 text-gold-300 rounded-full text-sm font-semibold mb-4 border border-gold-500/20">
+//               Get in Touch
+//             </span>
+//             <h1 className="text-4xl md:text-5xl font-display font-bold leading-tight">
+//               Let's <span className="text-gold-400">Connect</span>
+//             </h1>
+//             <p className="text-white/70 text-lg mt-4 max-w-2xl">
+//               Have questions about our services? Need professional assistance? 
+//               We're here to help. Reach out to us through any of the channels below.
+//             </p>
+//           </div>
+//         </div>
+//       </section>
+
+//       {/* Contact Section */}
+//       <section className="max-w-7xl mx-auto px-4 -mt-8 relative z-10">
+//         <div className="grid lg:grid-cols-5 gap-6">
+//           {/* Contact Form */}
+//           <div className="lg:col-span-3 bg-white rounded-3xl shadow-xl p-6 md:p-8">
+//             <h2 className="text-2xl font-display font-bold text-primary-900 mb-2">
+//               Send Us a <span className="text-gold-500">Message</span>
+//             </h2>
+//             <p className="text-gray-500 text-sm mb-6">
+//               Fill out the form below and we'll get back to you within 24 hours.
+//             </p>
+
+//             <form className="space-y-4">
+//               <div className="grid sm:grid-cols-2 gap-4">
+//                 <div>
+//                   <label className="block text-sm font-medium text-gray-700 mb-1.5">
+//                     Full Name <span className="text-red-500">*</span>
+//                   </label>
+//                   <div className="relative">
+//                     <FiUser className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
+//                     <input
+//                       type="text"
+//                       placeholder="John Doe"
+//                       className="w-full pl-10 pr-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-gold-500/50 focus:border-gold-500 outline-none transition"
+//                       required
+//                     />
+//                   </div>
+//                 </div>
+//                 <div>
+//                   <label className="block text-sm font-medium text-gray-700 mb-1.5">
+//                     Phone Number <span className="text-red-500">*</span>
+//                   </label>
+//                   <div className="relative">
+//                     <FiPhone className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
+//                     <input
+//                       type="tel"
+//                       placeholder="+91 99846 49997"
+//                       className="w-full pl-10 pr-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-gold-500/50 focus:border-gold-500 outline-none transition"
+//                       required
+//                     />
+//                   </div>
+//                 </div>
+//               </div>
+
+//               <div>
+//                 <label className="block text-sm font-medium text-gray-700 mb-1.5">
+//                   Email Address <span className="text-red-500">*</span>
+//                 </label>
+//                 <div className="relative">
+//                   <FiMail className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
+//                   <input
+//                     type="email"
+//                     placeholder="john@example.com"
+//                     className="w-full pl-10 pr-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-gold-500/50 focus:border-gold-500 outline-none transition"
+//                     required
+//                   />
+//                 </div>
+//               </div>
+
+//               <div>
+//                 <label className="block text-sm font-medium text-gray-700 mb-1.5">
+//                   Service Required <span className="text-red-500">*</span>
+//                 </label>
+//                 <div className="relative">
+//                   <FiFileText className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
+//                   <select
+//                     className="w-full pl-10 pr-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-gold-500/50 focus:border-gold-500 outline-none transition appearance-none"
+//                     required
+//                   >
+//                     <option value="">Select a service...</option>
+//                     <option value="gst">GST Registration</option>
+//                     <option value="itr">ITR Filing</option>
+//                     <option value="incorporation">Company Incorporation</option>
+//                     <option value="roc">ROC Compliance</option>
+//                     <option value="audit">Statutory Audit</option>
+//                     <option value="legal">Legal Consultation</option>
+//                     <option value="other">Other Service</option>
+//                   </select>
+//                 </div>
+//               </div>
+
+//               <div>
+//                 <label className="block text-sm font-medium text-gray-700 mb-1.5">
+//                   Your Message <span className="text-red-500">*</span>
+//                 </label>
+//                 <textarea
+//                   rows={4}
+//                   placeholder="Tell us about your requirement..."
+//                   className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-gold-500/50 focus:border-gold-500 outline-none transition resize-y"
+//                   required
+//                 />
+//               </div>
+
+//               <button
+//                 type="submit"
+//                 className="w-full bg-gold-500 text-primary-900 font-semibold py-3.5 rounded-xl hover:bg-gold-600 transition-all hover:scale-[1.02] shadow-lg hover:shadow-gold-500/25 flex items-center justify-center gap-2"
+//               >
+//                 Send Message
+//                 <FiSend className="w-5 h-5" />
+//               </button>
+
+//               <p className="text-xs text-gray-400 text-center">
+//                 🔒 Your data is safe. We'll never share your information.
+//               </p>
+//             </form>
+//           </div>
+
+//           {/* Contact Info */}
+//           <div className="lg:col-span-2 space-y-4">
+//             {/* Quick Contact */}
+//             <div className="bg-white rounded-3xl shadow-xl p-6">
+//               <h3 className="font-bold text-primary-900 text-lg mb-4">Quick Contact</h3>
+//               <div className="space-y-4">
+//                 <div className="flex items-start gap-3 p-3 bg-gray-50 rounded-xl hover:bg-gold-50 transition group">
+//                   <div className="w-10 h-10 bg-gold-100 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-gold-200 transition">
+//                     <FiPhone className="w-5 h-5 text-gold-600" />
+//                   </div>
+//                   <div>
+//                     <p className="text-xs text-gray-500">Phone</p>
+//                     <a href="tel:+919984649997" className="text-primary-900 font-medium hover:text-gold-600 transition">
+//                       +91 99846 49997
+//                     </a>
+//                   </div>
+//                 </div>
+
+//                 <div className="flex items-start gap-3 p-3 bg-gray-50 rounded-xl hover:bg-gold-50 transition group">
+//                   <div className="w-10 h-10 bg-gold-100 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-gold-200 transition">
+//                     <FiMail className="w-5 h-5 text-gold-600" />
+//                   </div>
+//                   <div>
+//                     <p className="text-xs text-gray-500">Email</p>
+//                     <a href="mailto:info@corporatekaryalay.in" className="text-primary-900 font-medium hover:text-gold-600 transition break-all">
+//                       info@corporatekaryalay.in
+//                     </a>
+//                   </div>
+//                 </div>
+
+//                 <div className="flex items-start gap-3 p-3 bg-gray-50 rounded-xl hover:bg-gold-50 transition group">
+//                   <div className="w-10 h-10 bg-gold-100 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-gold-200 transition">
+//                     <FiClock className="w-5 h-5 text-gold-600" />
+//                   </div>
+//                   <div>
+//                     <p className="text-xs text-gray-500">Working Hours</p>
+//                     <p className="text-primary-900 font-medium">Mon–Sat, 10am–7pm IST</p>
+//                   </div>
+//                 </div>
+
+//                 <div className="flex items-start gap-3 p-3 bg-gray-50 rounded-xl hover:bg-gold-50 transition group">
+//                   <div className="w-10 h-10 bg-gold-100 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-gold-200 transition">
+//                     <FiMessageCircle className="w-5 h-5 text-gold-600" />
+//                   </div>
+//                   <div>
+//                     <p className="text-xs text-gray-500">WhatsApp</p>
+//                     <a href="#" className="text-primary-900 font-medium hover:text-gold-600 transition">
+//                       Chat with us
+//                     </a>
+//                   </div>
+//                 </div>
+//               </div>
+//             </div>
+
+//             {/* CTA Card */}
+//             <div className="bg-gradient-to-br from-primary-900 to-primary-800 rounded-3xl shadow-xl p-6 text-white">
+//               <h3 className="font-bold text-lg mb-2">Need a Quick Estimate?</h3>
+//               <p className="text-white/70 text-sm mb-4">
+//                 Get a free, no-obligation quote in minutes.
+//               </p>
+//               <Link 
+//                 href="/estimate" 
+//                 className="inline-flex items-center gap-2 bg-gold-500 text-primary-900 font-semibold px-6 py-3 rounded-xl hover:bg-gold-600 transition-all hover:scale-105 w-full justify-center"
+//               >
+//                 Get Free Estimate
+//                 <FiArrowRight className="w-5 h-5" />
+//               </Link>
+//             </div>
+//           </div>
+//         </div>
+//       </section>
+
+//       {/* Office Locations */}
+//       <section className="max-w-7xl mx-auto px-4 py-12">
+//         <h2 className="text-2xl md:text-3xl font-display font-bold text-primary-900 text-center mb-2">
+//           Our <span className="text-gold-500">Offices</span>
+//         </h2>
+//         <p className="text-gray-500 text-center mb-8">
+//           We have a presence across India to serve you better.
+//         </p>
+
+//         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+//           {offices.map((office, index) => (
+//             <div key={index} className="bg-white rounded-2xl p-5 shadow-soft border border-gray-100 hover:shadow-xl hover:border-gold-200/50 transition-all duration-300 hover:-translate-y-1 group">
+//               <div className="flex items-center gap-2 mb-3">
+//                 <FiMapPin className="w-5 h-5 text-gold-500" />
+//                 <h4 className="font-bold text-primary-900 group-hover:text-gold-600 transition-colors">
+//                   {office.city}
+//                 </h4>
+//               </div>
+//               <p className="text-sm text-gray-500 leading-relaxed">{office.address}</p>
+//               <div className="mt-3 pt-3 border-t border-gray-100 space-y-1">
+//                 <a href={`tel:${office.phone}`} className="text-sm text-primary-600 hover:text-gold-600 transition flex items-center gap-2">
+//                   <FiPhone className="w-3.5 h-3.5" /> {office.phone}
+//                 </a>
+//                 <a href={`mailto:${office.email}`} className="text-sm text-primary-600 hover:text-gold-600 transition flex items-center gap-2">
+//                   <FiMail className="w-3.5 h-3.5" /> {office.email}
+//                 </a>
+//               </div>
+//             </div>
+//           ))}
+//         </div>
+//       </section>
+
+//       {/* FAQ Section */}
+//       <section className="max-w-4xl mx-auto px-4 py-12">
+//         <h2 className="text-2xl md:text-3xl font-display font-bold text-primary-900 text-center mb-2">
+//           Frequently Asked <span className="text-gold-500">Questions</span>
+//         </h2>
+//         <p className="text-gray-500 text-center mb-8">
+//           Find quick answers to common questions.
+//         </p>
+
+//         <div className="space-y-3">
+//           {faqs.map((faq, index) => (
+//             <div key={index} className="bg-white rounded-2xl p-5 shadow-soft border border-gray-100 hover:shadow-md transition">
+//               <h4 className="font-semibold text-primary-900 flex items-start gap-2">
+//                 <FiCheckCircle className="w-5 h-5 text-gold-500 flex-shrink-0 mt-0.5" />
+//                 {faq.question}
+//               </h4>
+//               <p className="text-gray-500 text-sm mt-1 ml-7">{faq.answer}</p>
+//             </div>
+//           ))}
+//         </div>
+//       </section>
+//     </div>
+//   );
+// }
+
+
+import { Metadata } from 'next';
+import ContactClient from './ContactClient';
+
+export const metadata: Metadata = {
+  title: 'Contact Us - Corporate Karyalay',
+  description: 'Get in touch with Corporate Karyalay for tax, compliance, and legal services. Call, email, or fill out our contact form.',
+  keywords: 'contact corporate karyalay, tax consultation, legal help, compliance services',
+};
+
+export default function ContactPage() {
+  return <ContactClient />;
+}

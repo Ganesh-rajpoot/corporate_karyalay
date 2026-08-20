@@ -1,0 +1,200 @@
+/* @import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-gray-50 text-navy antialiased;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/60 backdrop-blur-sm border border-white/30;
+  }
+  
+  .shadow-soft {
+    @apply shadow-[0_12px_40px_-12px_rgba(11,28,63,0.08)];
+  }
+  
+  .shadow-gold {
+    @apply shadow-[0_8px_28px_-6px_rgba(212,160,23,0.25)];
+  }
+  
+  .hover-lift {
+    @apply transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_24px_48px_-16px_rgba(11,28,63,0.15)];
+  }
+  
+  .service-card {
+    @apply bg-white rounded-2xl p-6 transition-all duration-300 border border-gray-100 hover:border-gold hover:shadow-[0_12px_32px_-12px_rgba(212,160,23,0.12)] hover:-translate-y-1;
+  }
+  
+  .step-circle {
+    @apply w-14 h-14 rounded-full bg-navy text-white flex items-center justify-center text-2xl font-bold;
+  }
+  
+  .badge-trust {
+    @apply bg-white/10 text-white border border-white/10 px-3 py-1 rounded-full text-xs font-medium;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
+
+/* 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-gray-200; 
+  }
+  body {
+    @apply bg-gray-50 text-navy antialiased;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/60 backdrop-blur-sm border border-white/30;
+  }
+  
+  .shadow-soft {
+    @apply shadow-[0_12px_40px_-12px_rgba(11,28,63,0.08)];
+  }
+  
+  .shadow-gold {
+    @apply shadow-[0_8px_28px_-6px_rgba(212,160,23,0.25)];
+  }
+  
+  .hover-lift {
+    @apply transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_24px_48px_-16px_rgba(11,28,63,0.15)];
+  }
+  
+  .service-card {
+    @apply bg-white rounded-2xl p-6 transition-all duration-300 border border-gray-100 hover:border-gold hover:shadow-[0_12px_32px_-12px_rgba(212,160,23,0.12)] hover:-translate-y-1;
+  }
+  
+  .step-circle {
+    @apply w-14 h-14 rounded-full bg-navy text-white flex items-center justify-center text-2xl font-bold;
+  }
+  
+  .badge-trust {
+    @apply bg-white/10 text-white border border-white/10 px-3 py-1 rounded-full text-xs font-medium;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
+
+
+/* app/globals.css for v3 */
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-gray-200;
+  }
+  
+  body {
+    @apply bg-white text-gray-900 antialiased;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary-600 to-primary-400 bg-clip-text text-transparent;
+  }
+}
+
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+} */
+
+
+/* app/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-gray-200;
+  }
+  
+  body {
+    @apply bg-white text-gray-900 antialiased;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 bg-primary-600 text-white font-semibold rounded-xl hover:bg-primary-700 transition-all hover:shadow-lg;
+  }
+  
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-6 py-3 bg-white text-primary-600 font-semibold rounded-xl border-2 border-primary-200 hover:border-primary-400 transition-all;
+  }
+}
+
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+}
