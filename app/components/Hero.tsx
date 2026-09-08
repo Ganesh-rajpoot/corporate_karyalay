@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { FiPhone, FiMessageCircle } from 'react-icons/fi';
 
 const services = [
-  { icon: '🧾', title: 'GST Registration', price: 'from ₹2,999' },
+  { icon: '🧾', title: 'GST Registration', price: 'from ₹999' },
   { icon: '📊', title: 'ITR Filing', price: 'from ₹1,499' },
   { icon: '🏢', title: 'Company Incorporation', price: 'from ₹6,999' },
   { icon: '📋', title: 'Statutory Audit', price: 'from ₹4,500' },

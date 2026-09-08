@@ -29,8 +29,8 @@ const services = [
     title: 'GST Registration',
     icon: '📄',
     category: 'Registration',
-    price: '₹2,999',
-    priceRange: '₹2,999 - ₹4,999',
+    price: '₹999',
+    priceRange: '₹999 - ₹2,999',
     duration: '3-5 working days',
     description: 'Professional GST registration services for businesses of all sizes. Get your GST number quickly and start your business journey with proper tax compliance.',
     longDescription: `
@@ -411,7 +411,7 @@ const services = [
     icon: '💰',
     category: 'Taxation',
     price: '₹999',
-    priceRange: '₹999 - ₹2,999',
+    priceRange: '₹999 - ₹1,999',
     duration: '1-2 working days',
     description: 'Professional GST return filing services for businesses. File your GST returns on time and avoid penalties with our expert assistance.',
     longDescription: `
@@ -474,7 +474,7 @@ const services = [
     title: 'Trademark Registration',
     icon: '🔐',
     category: 'Registration',
-    price: '₹4,999',
+    price: '₹5,999',
     priceRange: '₹4,999 - ₹8,999',
     duration: '6-18 months',
     description: 'Brand protection and intellectual property registration services. Secure your brand identity with professional trademark registration.',
@@ -731,7 +731,7 @@ const services = [
     icon: '📑',
     category: 'Compliance',
     price: '₹5,999',
-    priceRange: '₹5,999 - ₹12,999',
+    priceRange: '₹5,999 - ₹1999',
     duration: '7-10 working days',
     description: 'Complete annual compliance services for Private Limited Companies. File ROC returns, hold board meetings, and stay compliant.',
     longDescription: `

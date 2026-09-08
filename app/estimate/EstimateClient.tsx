@@ -34,9 +34,9 @@ const pricingTiers = [
   {
     category: 'Registration',
     services: [
-      { name: 'GST Registration', price: '₹2,999' },
+      { name: 'GST Registration', price: '₹999' },
       { name: 'MSME / Udyam Registration', price: 'Free' },
-      { name: 'Trademark Registration', price: '₹4,999' },
+      { name: 'Trademark Registration', price: '₹5,999' },
       { name: 'Company Incorporation', price: '₹6,999' },
     ]
   },
@@ -398,7 +398,7 @@ export default function EstimateClient() {
               <div className="space-y-2">
                 <div className="flex justify-between text-sm border-b border-white/10 pb-2">
                   <span className="text-white/70">GST Registration</span>
-                  <span className="text-gold-400 font-semibold">₹2,999</span>
+                  <span className="text-gold-400 font-semibold">₹999</span>
                 </div>
                 <div className="flex justify-between text-sm border-b border-white/10 pb-2">
                   <span className="text-white/70">ITR Filing</span>

@@ -278,7 +278,7 @@ const services = [
     title: 'GST Registration',
     description:
       'Business registration under GST for individuals and companies',
-    price: 'from ₹2,999',
+    price: 'from ₹999',
     category: 'Registration',
     features: [
       'New GST registration',
@@ -389,7 +389,7 @@ const services = [
     title: 'Trademark Registration',
     description:
       'Brand protection & intellectual property registration',
-    price: 'from ₹4,999',
+    price: 'from ₹5,999',
     category: 'Registration',
     features: [
       'Trademark search',
