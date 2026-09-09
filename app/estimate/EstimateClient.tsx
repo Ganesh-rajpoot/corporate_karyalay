@@ -112,7 +112,7 @@ export default function EstimateClient() {
     setSuccessMessage('');
 
     try {
-      const response = await fetch('https://corporate-api.corporatekaryala-api.workers.dev/api/estimates', {
+      const response = await fetch('https://api.corporatekaryalay.com/api/estimates', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

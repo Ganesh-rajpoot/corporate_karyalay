@@ -93,7 +93,7 @@ export default function ContactClient() {
     setSuccessMessage('');
 
     try {
-      const response = await fetch('https://corporate-api.corporatekaryala-api.workers.dev/api/contact', {
+      const response = await fetch('https://api.corporatekaryalay.com/api/contacts', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
