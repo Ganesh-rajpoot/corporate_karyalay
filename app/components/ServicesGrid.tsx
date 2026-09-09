@@ -90,6 +90,25 @@ const allServices = [
     category: 'Legal',
     features: ['Legal advice', 'Document review', 'Case strategy'],
   },
+   { 
+    id: 10,
+    icon: '🤝', 
+    title: 'NGO Darpan Registration', 
+    description: 'NGO registration on NGO Darpan portal', 
+    price: 'from ₹499',
+    category: 'Registration',
+    features: ['NGO Darpan registration', 'Unique ID generation', 'Profile setup'],
+  },
+
+  { 
+    id: 11,
+    icon: '🌐', 
+    title: 'Import Export Code', 
+    description: 'IEC license for import & export business', 
+    price: 'from ₹999',
+    category: 'Registration',
+    features: ['New IEC registration', 'IEC application filing', 'IEC modification'],
+  },
 ];
 
 export function ServicesGrid() {

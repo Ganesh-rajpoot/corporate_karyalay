@@ -787,7 +787,134 @@ const services = [
       description: 'Complete annual compliance services for Private Limited Companies. ROC filing, board meetings, and compliance management. ✓ Professional ✓ Timely ✓ Hassle-Free',
       keywords: 'annual compliance, private limited compliance, ROC compliance, company annual filing, MGT-7 filing, AOC-4 filing',
     }
-  }
+  },
+    {
+    id: 13,
+    slug: 'ngo-darpan-registration',
+    title: 'NGO Darpan Registration',
+    icon: '🤝',
+    category: 'Registration',
+    price: '₹499',
+    priceRange: '₹499 - ₹1,999',
+    duration: '7-10 working days',
+    description: 'Professional NGO Darpan registration services for trusts, societies, and Section 8 companies. Get listed on the NITI Aayog Darpan portal to access government grants and CSR funding.',
+    longDescription: `
+      NGO Darpan is a portal maintained by NITI Aayog that provides a unique identification (Darpan ID) to voluntary organizations (VOs) and NGOs in India. Registration on the portal is mandatory for NGOs seeking government grants, CSR funds, and participation in government schemes.
+
+      We provide end-to-end NGO Darpan registration services including:
+      - Complete document preparation and verification
+      - Online application filing on the NGO Darpan portal
+      - Coordination with the concerned Nodal Department
+      - Darpan Unique ID (Darpan ID) delivery
+      - Post-registration compliance guidance
+    `,
+    features: [
+      'New NGO Darpan ID registration',
+      'Trust, Society & Section 8 Company onboarding',
+      'Darpan profile updation and correction',
+      'CSR-1 filing assistance',
+      '80G/12A linkage guidance',
+      'Government scheme eligibility advisory'
+    ],
+    benefits: [
+      'Eligibility for government grants and schemes',
+      'Access to CSR funding from corporates',
+      'Enhanced credibility and transparency',
+      'Mandatory for FCRA and CSR-1 applications',
+      'Recognition by NITI Aayog and government departments'
+    ],
+    documents: [
+      'Trust Deed / Society Registration Certificate / Section 8 Incorporation Certificate',
+      'PAN Card of the organization',
+      'Registered address proof',
+      'Details of governing body members (PAN & Aadhaar)',
+      'Details of chief functionary',
+      'Bank account details of the organization'
+    ],
+    faqs: [
+      {
+        question: 'Who needs NGO Darpan registration?',
+        answer: 'Any trust, society, or Section 8 company seeking government grants, CSR funding, or wanting to register under FCRA or file CSR-1 must first obtain an NGO Darpan Unique ID.'
+      },
+      {
+        question: 'How long does NGO Darpan registration take?',
+        answer: 'The registration process typically takes 7-10 working days after submission of the online application, subject to verification and approval by the concerned Nodal Department.'
+      },
+      {
+        question: 'Is NGO Darpan registration mandatory?',
+        answer: 'While not mandatory for basic operations, it is a prerequisite for accessing government grants, CSR-1 filing, FCRA registration, and several state and central government schemes.'
+      }
+    ],
+    seo: {
+      title: 'NGO Darpan Registration Services | NITI Aayog NGO Registration | Corporate Karyalay',
+      description: 'Expert NGO Darpan registration services for trusts, societies & Section 8 companies. Get your Darpan ID for government grants & CSR funding. ✓ 100% Online ✓ Expert Assistance',
+      keywords: 'NGO Darpan registration, NITI Aayog NGO registration, Darpan ID, NGO registration online, CSR-1 filing, NGO compliance India',
+    }
+  },
+  {
+    id: 14,
+    slug: 'import-export-code',
+    title: 'Import Export Code (IEC)',
+    icon: '🌐',
+    category: 'Registration',
+    price: '₹1,499',
+    priceRange: '₹499 - ₹1,999',
+    duration: '3-5 working days',
+    description: 'Fast and reliable Import Export Code (IEC) registration services. Get your IEC from DGFT and start your international trade business with complete compliance.',
+    longDescription: `
+      Import Export Code (IEC) is a 10-digit business identification number issued by the Directorate General of Foreign Trade (DGFT) that is mandatory for any business involved in import or export of goods and services from India.
+
+      We provide complete IEC registration services:
+      - Document preparation and verification
+      - Online application filing on the DGFT portal
+      - Digital signature (DSC) / Aadhaar-based e-sign support
+      - Follow-up with DGFT authorities
+      - IEC certificate delivery
+      - Post-registration modification and update support
+    `,
+    features: [
+      'New IEC code registration',
+      'IEC modification and update',
+      'IEC surrender services',
+      'RCMC (Registration cum Membership Certificate) assistance',
+      'AD Code registration support',
+      'Import-export compliance advisory'
+    ],
+    benefits: [
+      'Legal authorization to import/export',
+      'Access to export incentives and schemes',
+      'No requirement for periodic renewal or filing',
+      'Enables international banking and customs clearance',
+      'Enhanced business expansion opportunities'
+    ],
+    documents: [
+      'PAN Card of business/individual',
+      'Aadhaar Card of proprietor/partners/directors',
+      'Business address proof',
+      'Cancelled cheque / bank certificate',
+      'Incorporation/registration certificate (if company/LLP)',
+      'Digital signature or Aadhaar for e-sign (if applicable)'
+    ],
+    faqs: [
+      {
+        question: 'Who needs an Import Export Code (IEC)?',
+        answer: 'Any individual or business entity planning to import or export goods or services from India must obtain an IEC from DGFT, unless specifically exempted (such as for personal use goods not connected with trade).'
+      },
+      {
+        question: 'How long does it take to get an IEC?',
+        answer: 'IEC registration is typically processed within 3-5 working days once the application and documents are submitted correctly on the DGFT portal.'
+      },
+      {
+        question: 'Does IEC need to be renewed every year?',
+        answer: 'No, IEC does not require renewal. However, as per DGFT rules, IEC details must be confirmed/updated online annually between April and June, even if there is no change.'
+      }
+    ],
+    seo: {
+      title: 'Import Export Code (IEC) Registration | DGFT IEC Online | Corporate Karyalay',
+      description: 'Professional IEC registration services for import-export businesses. Get your DGFT Import Export Code quickly. ✓ 100% Online ✓ Fast Processing ✓ Expert Support',
+      keywords: 'Import Export Code, IEC registration, DGFT IEC, IEC code online, import export license, IEC certificate India',
+    }
+  },
 ];
 
 // Generate metadata for each service

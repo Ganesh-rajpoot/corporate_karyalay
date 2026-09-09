@@ -437,7 +437,7 @@ const services = [
     title: 'MSME / Udyam Registration',
     description:
       'Free MSME registration with Udyam portal',
-    price: 'Free',
+    price: '₹499',
     category: 'Registration',
     features: [
       'Udyam registration',
@@ -463,7 +463,42 @@ const services = [
     ],
     slug: 'annual-compliance',
   },
+  {
+    id: 13,
+    icon: '🤝',
+    title: 'NGO Darpan Registration',
+    description:
+      'NGO registration on the NGO Darpan portal',
+    price: '₹499',
+    category: 'Registration',
+    features: [
+      'NGO Darpan registration',
+      'NGO Darpan ID generation',
+      'Profile setup assistance',
+      'Registration support',
+    ],
+    slug: 'ngo-darpan-registration',
+  },
+
+  {
+    id: 14,
+    icon: '🌍',
+    title: 'Import Export Code (IEC)',
+    description:
+      'Import Export Code registration for businesses involved in international trade',
+    price: '₹999',
+    category: 'Registration',
+    features: [
+      'New IEC registration',
+      'IEC application filing',
+      'IEC certificate',
+      'Application support',
+    ],
+    slug: 'import-export-code',
+  },
 ];
+
+
 
 const categories = [
   'All',
