@@ -1,0 +1,22 @@
+# Corporate Karyalay
+
+> Business registration, taxation, audit, and legal compliance services for Indian businesses and individuals.
+
+## Services
+- GST Registration: https://corporatekaryalay.com/service/gst-registration
+- ITR Filing: https://corporatekaryalay.com/service/itr-filing
+- Company Incorporation: https://corporatekaryalay.com/service/company-incorporation
+- Statutory Audit: https://corporatekaryalay.com/service/statutory-audit
+- ROC Compliance: https://corporatekaryalay.com/service/roc-compliance
+- Legal Documentation: https://corporatekaryalay.com/service/legal-documentation
+- GST Return Filing: https://corporatekaryalay.com/service/gst-return-filing
+- Trademark Registration: https://corporatekaryalay.com/service/trademark-registration
+- Legal Consultation: https://corporatekaryalay.com/service/legal-consultation
+- TDS Return Filing: https://corporatekaryalay.com/service/tds-return-filing
+- MSME / Udyam Registration: https://corporatekaryalay.com/service/msme-registration
+- Annual Compliance (Pvt Ltd): https://corporatekaryalay.com/service/annual-compliance
+- NGO Darpan Registration: https://corporatekaryalay.com/service/ngo-darpan-registration
+- Import Export Code (IEC): https://corporatekaryalay.com/service/import-export-code
+
+## Contact
+https://corporatekaryalay.com/contact
